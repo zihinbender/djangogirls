@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ca*y7o!1s#c8w2#basl$yptgf+z(e2n+qb_(k&c*jmm26%h%&%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mindbender.pythonanywhere.com']
 
 
 # Application definition
