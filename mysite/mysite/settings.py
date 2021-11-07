@@ -121,8 +121,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = '/static/admin'
-STATIC_ROOT = os.path.join(BASE_DIR, '/static/admin')
+STATIC_URL = '/static/'
+STATIC_ROOT = '/home/mindbender/mindbender.pythonanywhere.com/mysite/static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
