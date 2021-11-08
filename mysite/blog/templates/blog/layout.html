@@ -12,9 +12,9 @@
         <header class="page-header">
             <div class="container">
                 {% if user.is_authenticated %}
-                <a href="{% url 'post_new' %}" class="top-menu">
+                <h1><a href="{% url 'post_new' %}" class="top-menu">
                 {% include './icons/plus-square.svg' %}
-                </a>
+                </a></h1>
                 {% endif %}
                 <h1><a href="/">Aziz's Blog</a></h1>
             </div>
